@@ -7,7 +7,7 @@ from transformers import AutoTokenizer
 
 app = Flask(__name__)
 
-model_id = "/Users/zaoyingouyuandibaozha/Documents/model/Meta-Llama-3.1-8B-Instruct"
+model_id = "/Users/zaoyingouyuandibaozha/Documents/model/Meta-Llama-3.1-70B-Instruct"
 
 llama_controller = Blueprint('LlamaController', __name__)
 pipeline = None
